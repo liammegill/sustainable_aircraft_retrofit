@@ -1,0 +1,10 @@
+==========================================================
+Hydrogen Retrofit Design KBE App
+Input File
+----------------------------------------------------------
+n_firstclass_rows 3
+n_economy_rows 18
+n_seats_port_firstclass 2
+n_seats_port_economy 3
+n_seats_starboard_firstclass 2
+n_seats_starboard_economy 3
