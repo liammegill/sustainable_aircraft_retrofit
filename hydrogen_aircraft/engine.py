@@ -312,7 +312,11 @@ class Turbofan(GeomBase):
 
         from tkinter import Tk, messagebox
         from tkinter.filedialog import askopenfilename
+        import matplotlib
+        matplotlib.use('TKAgg')
         import matplotlib.pyplot as plt
+        # import matplotlib
+        # matplotlib.use('Qt5Agg')
 
         # Ask user whether applicable report from GSP already exists
         Tk().withdraw()
